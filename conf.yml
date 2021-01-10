@@ -1,0 +1,66 @@
+info:
+  title: AList
+  site_url: [这里填写网址 或者IP端口] 
+  backend_url: [这里填写网址 或者IP端口]
+  logo: ""
+  footer_text: 
+  footer_url: 
+  music_img: https://img.oez.cc/2020/12/19/0f8b57866bdb5.gif
+  check_update: true
+  script: ""
+  autoplay: true
+  preview:
+    url: https://view.alist.nn.ci/onlinePreview?url=
+    pre_process:
+    - base64
+    - encodeURIComponent
+    extensions:
+    - doc
+    - docx
+    - ppt
+    - pptx
+    - xls
+    - xlsx
+    - pdf
+    text:
+    - txt
+    - htm
+    - html
+    - xml
+    - java
+    - properties
+    - sql
+    - js
+    - md
+    - json
+    - conf
+    - ini
+    - vue
+    - php
+    - py
+    - bat
+    - gitignore
+    - yml
+    - go
+    - sh
+    - c
+    - cpp
+    - h
+    - hpp
+    max_size: 5242880
+server:
+  port: "5244"
+  search: false
+  static: dist
+cache:
+  enable: true
+  expiration: 60
+  cleanup_interval: 120
+  refresh_password: password
+ali_drive:
+  api_url: https://api.aliyundrive.com/v2
+  root_folder: [folder]
+  login_token: ""
+  access_token: 
+  refresh_token: [refresh_token] 
+  max_files_count: 3000
