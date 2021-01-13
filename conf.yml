@@ -1,11 +1,9 @@
 info:
   title: AList
-  site_url: [这里填写网址 或者IP端口] 
-  backend_url: [这里填写网址 或者IP端口]
   logo: ""
-  footer_text: 
-  footer_url: 
-  music_img: https://img.oez.cc/2020/12/19/0f8b57866bdb5.gif
+  footer_text: ""
+  footer_url: ""
+  music_img: https://img.xhofe.top/2020/12/19/0f8b57866bdb5.gif
   check_update: true
   script: ""
   autoplay: true
@@ -52,6 +50,7 @@ server:
   port: "5244"
   search: false
   static: dist
+  site_url: '*'
 cache:
   enable: true
   expiration: 60
@@ -59,8 +58,8 @@ cache:
   refresh_password: password
 ali_drive:
   api_url: https://api.aliyundrive.com/v2
-  root_folder: [folder]
+  root_folder: root
   login_token: ""
-  access_token: 
-  refresh_token: [refresh_token] 
+  access_token: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYmQyOGQwNjA3YWY0OWZlYWYzZmQ4NTM3Nzg5YmE3NyIsImN1c3RvbUpzb24iOiJ7XCJjbGllbnRJZFwiOlwiMjVkelgzdmJZcWt0Vnh5WFwiLFwiZG9tYWluSWRcIjpcImJqMjlcIixcInNjb3BlXCI6W1wiRFJJVkUuQUxMXCIsXCJTSEFSRS5BTExcIixcIkZJTEUuQUxMXCIsXCJVU0VSLkFMTFwiLFwiU1RPUkFHRS5BTExcIixcIlNUT1JBR0VGSUxFLkxJU1RcIixcIkJBVENIXCIsXCJPQVVUSC5BTExcIixcIklOVklURS5BTExcIl0sXCJyb2xlXCI6XCJ1c2VyXCJ9IiwiZXhwIjoxNjEwNTI3OTg0LCJpYXQiOjE2MTA1MjA3MjR9.kOR0TL1xtNA9YesB2S3jdArZPxmGnauUDxl3jejYfbt1YNh1r1FNuA_vDTjTOveNBGPNJBVz4L355M-xm_9d2Q9cqgO4dHturtBA4SA2ct6j6br5ELuDyjleXgSaNN2sg9fpqcv0_mZyt_0y7LCbWlOEAgHl0eGv_I9LKO09nW4
+  refresh_token: 9eef23a977d64992b68476cb41fa43ee
   max_files_count: 3000
