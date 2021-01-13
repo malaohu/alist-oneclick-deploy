@@ -12,7 +12,7 @@ cp ./conf_tmp.yml ./conf.yml
 read -p "输入阿里云盘token: " TOKEN 
 read -p "输入要分享的目录ID（默认: root）: " _FOLDER
 
-FOLDER=${FOLDER:-root}
+FOLDER=${_FOLDER:-root}
  
 
 sed -i 's/\[refresh_token\]/'$TOKEN'/g' ./conf.yml 
